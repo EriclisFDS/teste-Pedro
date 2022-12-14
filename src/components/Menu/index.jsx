@@ -5,6 +5,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 
 import { Options } from "./options/options";
+import Logout from "./logout";
 
 
 export default function Menu(){
@@ -36,7 +37,7 @@ export default function Menu(){
                 top-0
                 ${sidebar ? "left-0 duration-300" : "-left-full duration-700"}
             `}>
-                <ul className="w-full items-center justify-center">
+                <ul className="w-full">
                     <li className={`
                         text-xl
                         h-14
@@ -61,6 +62,7 @@ export default function Menu(){
                         )
                     })}
                 </ul>
+                <Logout/>
             </nav>
         </div>
         

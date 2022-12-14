@@ -7,14 +7,14 @@ const navText2 = "flex items-center text-white decoration-none text-lg w-full h-
 
 export const Options = [
     {
-       title: "Charts",
+       title: "Dash",
        path: "/charts",
        icon: <AiIcons.AiOutlineBarChart/>,
        cName: navText,
        cNameBtn: navText2
     },
     {
-        title: "DataTable",
+        title: "List",
         path: "/dataTable",
         icon: <AiIcons.AiOutlineTable/>,
         cName: navText,
