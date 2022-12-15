@@ -26,7 +26,7 @@ export default function LoginForm(){
                 text-center
                 pb-6
             `}>
-                Welcome
+                Wellcome
             </span>
             
             <span className={`
@@ -51,7 +51,8 @@ export default function LoginForm(){
                 <input 
                     type="email"
                     value={email}
-                    onChange={e => setEmail(e.target.value)} 
+                    onChange={e => setEmail(e.target.value)}
+                    placeholder="teste@teste.com" 
                     className={`
                         text-base
                         text-white
@@ -77,6 +78,7 @@ export default function LoginForm(){
                     type="password"
                     value={password}
                     onChange={e => setPassword(e.target.value)} 
+                    placeholder="123456"
                     className={`
                         text-base
                         text-white
