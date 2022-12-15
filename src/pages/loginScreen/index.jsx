@@ -13,11 +13,11 @@ export default function LoginScreen(){
                 items-center 
                 justify-items-center
                 p-3.5
-                bg-blue-500
+                bg-white
             `}>
                 <div className={`
                     w-96 
-                    bg-green-500 
+                    bg-stone-900 
                     rounded-lg
                     pt-20
                     px-14
@@ -35,8 +35,10 @@ export default function LoginScreen(){
                     `}>
                         <span className={`
                             text-xs
+                            text-white
+                            mb-8
                         `}>
-                            Esqueceu sua senha? <Link to={'/'} className="text-blue-900 underline">Clique aqui</Link> para recupera-la
+                            Esqueceu sua senha? <Link to={'/'} className="text-blue-500 underline">Clique aqui</Link> para recupera-la
                         </span>
                     </div>
                 </div>

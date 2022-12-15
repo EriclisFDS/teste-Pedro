@@ -14,7 +14,7 @@ export default function Menu(){
     return(
         <div className="sticky top-0 z-40">
             <div className={`
-                bg-gray-500
+                bg-stone-900
                 h-16
                 flex
                 justify-start
@@ -24,12 +24,15 @@ export default function Menu(){
                     ml-8
                     text-xl
                     bg-none
+                    text-white
+                    hover:bg-blue-500
+                    p-5
                 `}>
                     <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
             </div>
             <nav className={`
-                bg-red-500
+                bg-stone-900
                 w-64
                 h-screen
                 justify-center
@@ -48,7 +51,7 @@ export default function Menu(){
                         items-center
                         hover:bg-blue-500
                     `}>
-                        <Link to="#" className="">
+                        <Link to="#" className="text-white">
                             <AiIcons.AiOutlineClose onClick={showSidebar} />
                         </Link>
                     </li>

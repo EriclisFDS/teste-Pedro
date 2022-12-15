@@ -3,7 +3,7 @@ import { ChartsComponents } from "./chartsComponents";
 
 export default function Charts(){
     return(
-        <div>
+        <div className="">
             <Menu/>
             <ChartsComponents/>
         </div>

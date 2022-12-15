@@ -24,8 +24,9 @@ export default function LoginForm(){
                 text-3xl 
                 text-white 
                 text-center
+                pb-6
             `}>
-                ola
+                Welcome
             </span>
             
             <span className={`
@@ -42,7 +43,6 @@ export default function LoginForm(){
             </span>
             
             <div className={`
-                bg-red-500
                 w-full
                 relative
                 mb-9
@@ -68,7 +68,6 @@ export default function LoginForm(){
             </div>
             
             <div className={`
-                bg-red-500
                 w-full
                 relative
                 mb-9
@@ -113,6 +112,7 @@ export default function LoginForm(){
                     w-full
                     h-12
                     bg-yellow-500
+                    mt-4
                 `}>
                     Login
                 </button>
