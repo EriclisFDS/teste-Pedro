@@ -9,16 +9,16 @@ export function ChartsComponents() {
   return (
     <div>
         <Chart
-          className="pl-60 mt-20"
+          className="ml-auto p-6 mt-20 border-solid border-2"
           chartType="Line"
           width="90%"
           height="400px"
           data={lineData}
           options={lineOptions}
         />
-        <div className="flex mx-auto mt-10">
+        <div className="flex mt-10 space-x-16">
             <Chart
-            className="ml-20"
+            className=" p-6 ml-auto border-solid border-2"
             chartType="PieChart"
             data={pieData}
             options={pieOptions}
@@ -26,6 +26,7 @@ export function ChartsComponents() {
             height={"400px"}
             />
             <Chart
+            className="p-6 border-solid border-2"
             chartType="Bar"
             width="80%"
             height="400px"

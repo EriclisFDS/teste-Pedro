@@ -8,9 +8,10 @@ import { Options } from "./options/options";
 import Logout from "./logout";
 
 
-export default function Menu(){
+export default function Menu({ pageTitle }){
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
+    const [currentTitle, setCurrentTitle] = useState(`${pageTitle}`);
     return(
         <div className="sticky top-0 z-40">
             <div className={`
@@ -20,7 +21,7 @@ export default function Menu(){
                 justify-start
                 items-center
             `}>
-                <Link to="#" className={`
+                <Link to="#" onClick={showSidebar} className={`
                     ml-8
                     text-xl
                     bg-none
@@ -28,8 +29,11 @@ export default function Menu(){
                     hover:bg-blue-500
                     p-5
                 `}>
-                    <FaIcons.FaBars onClick={showSidebar} />
+                    <FaIcons.FaBars />
                 </Link>
+                <h1 className="mx-auto text-white text-xl">
+                    {currentTitle}
+                </h1>
             </div>
             <nav className={`
                 bg-stone-900
@@ -42,7 +46,7 @@ export default function Menu(){
                 ${sidebar ? "left-0 duration-300" : "-left-full duration-700"}
             `}>
                 <ul className="w-full">
-                    <li className={`
+                    <li onClick={showSidebar} className={`
                         text-xl
                         h-14
                         w-14
@@ -52,13 +56,13 @@ export default function Menu(){
                         hover:bg-blue-500
                     `}>
                         <Link to="#" className="text-white">
-                            <AiIcons.AiOutlineClose onClick={showSidebar} />
+                            <AiIcons.AiOutlineClose />
                         </Link>
                     </li>
                     {Options.map((item, index) => {
                         return (
                             <li key={index} className={`${item.cName}`}>
-                                <Link to={item.path} className={`${item.cNameBtn}`}>
+                                <Link to={item.path} className={`${item.cNameBtn}`} >
                                     {item.icon}
                                     <span className="ml-2">{item.title}</span>
                                 </Link>

@@ -4,7 +4,7 @@ import { ChartsComponents } from "./chartsComponents";
 export default function Charts(){
     return(
         <div className="">
-            <Menu/>
+            <Menu pageTitle={"Dash"}/>
             <ChartsComponents/>
         </div>
     )

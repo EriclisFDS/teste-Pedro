@@ -1,7 +1,12 @@
 import Menu from "../../components/Menu";
+import TableComponent from "./tableComponent";
 
 export default function DataTable(){
     return(
-        <Menu/>
+        <div>
+            <Menu pageTitle={"List"}/>
+            <TableComponent />
+        </div>
+
     )
 }
