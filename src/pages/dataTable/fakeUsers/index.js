@@ -1,8 +1,8 @@
 export const users = [
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Mu de Aries",
+      "email": "parede.de.cristal@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -11,8 +11,8 @@ export const users = [
     },
     {
       "id": 2,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Audebaran de Touro",
+      "email": "grande.chifre@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -21,28 +21,28 @@ export const users = [
     },
     {
       "id": 3,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Saga de Gêmios",
+      "email": "outra.dimensao@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
-        "city": "Lebsackbury",
+        "city": "Lesackbury",
         "zipcode": "31428-2261"}
     },
     {
       "id": 4,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Mascara da Morte",
+      "email": "relampago.de.plasma@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
-        "city": "Lebsackbury",
+        "city": "Lesackbury",
         "zipcode": "31428-2261"}
     },
     {
       "id": 5,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Aioria de Leão",
+      "email": "ondas.do.inferno@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -51,8 +51,8 @@ export const users = [
     },
     {
       "id": 6,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Shaka de Virgem",
+      "email": "rendicao.divina@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -61,8 +61,8 @@ export const users = [
     },
     {
       "id": 7,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Dohko de Libra",
+      "email": "colera.dos.cem.dragoes@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -71,8 +71,8 @@ export const users = [
     },
     {
       "id": 8,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Miro de Escorpião",
+      "email": "agulha.escarlate@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -81,8 +81,8 @@ export const users = [
     },
     {
       "id": 9,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Aioros de Sagitário",
+      "email": "trova.atomico@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -91,8 +91,8 @@ export const users = [
     },
     {
       "id": 10,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Shura de Capricórnio",
+      "email": "excalibur@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -101,8 +101,8 @@ export const users = [
     },
     {
       "id": 11,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Cammus de Aquário",
+      "email": "execucao.aurora@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -111,8 +111,8 @@ export const users = [
     },
     {
       "id": 12,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
+      "name": "Afrodite de Peixes",
+      "email": "rosa.sangrenta@april.biz",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
