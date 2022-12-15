@@ -7,18 +7,18 @@ import { barData, barOptions } from "./chartBarData";
 
 export function ChartsComponents() {
   return (
-    <div>
+    <div className="ml-20">
         <Chart
-          className="ml-auto p-6 mt-20 border-solid border-2"
+          className=" p-6 mt-20 border-solid border-2"
           chartType="Line"
-          width="90%"
+          width="95%"
           height="400px"
           data={lineData}
           options={lineOptions}
         />
-        <div className="flex mt-10 space-x-16">
+        <div className="flex mt-10">
             <Chart
-            className=" p-6 ml-auto border-solid border-2"
+            className=" p-6 border-solid border-2"
             chartType="PieChart"
             data={pieData}
             options={pieOptions}
