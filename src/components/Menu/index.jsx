@@ -12,7 +12,7 @@ export default function Menu(){
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
     return(
-        <div>
+        <div className="sticky top-0 z-40">
             <div className={`
                 bg-gray-500
                 h-16
@@ -35,6 +35,7 @@ export default function Menu(){
                 justify-center
                 fixed
                 top-0
+                z-50
                 ${sidebar ? "left-0 duration-300" : "-left-full duration-700"}
             `}>
                 <ul className="w-full">
