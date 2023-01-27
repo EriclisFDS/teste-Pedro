@@ -54,6 +54,7 @@ export default function Menu({ pageTitle }){
                         justify-center
                         items-center
                         hover:bg-blue-500
+                        ml-7
                     `}>
                         <Link to="#" className="text-white">
                             <AiIcons.AiOutlineClose />
