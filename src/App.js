@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import LoginScreen from './pages/loginScreen';
 import Charts from './pages/charts';
