@@ -16,15 +16,18 @@ export function ChartsComponents() {
           data={lineData}
           options={lineOptions}
         />
-        <div className="flex mt-10">
+        <div className="mt-10 md:flex block">
+          <div className="mb-10 md:flex block md:w-1/2">
             <Chart
-            className=" p-6 border-solid border-2"
+            className=" p-6 border-solid border-2 "
             chartType="PieChart"
             data={pieData}
             options={pieOptions}
             width={"80%"}
             height={"400px"}
             />
+          </div>
+          <div className="md:flex block md:w-1/2 md:pr-0 ">
             <Chart
             className="p-6 border-solid border-2"
             chartType="Bar"
@@ -33,6 +36,7 @@ export function ChartsComponents() {
             data={barData}
             options={barOptions}
             />
+          </div>
         </div>
     </div>
   );
